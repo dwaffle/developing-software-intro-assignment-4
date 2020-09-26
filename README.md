@@ -12,8 +12,13 @@ Linting: npm run build:lint
 
 Formatting: npm run build:format
 
+Tests: npm run test
+
 Compile and run: npm run start:build
 
 Lint, compile, and run: npm run start:build:lint
 
 Lint, format, compile and run: npm run start:build:lint:format
+
+Lint, format, test, compile and run: npm run start:build:lint:format:test
+
