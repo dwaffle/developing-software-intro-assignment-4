@@ -4,21 +4,44 @@ This is the assignment for Assignment 4
 
 ## Commands for the package
 
-Compile: npm run compile
+**Compile**: npm run compile
 
-Run without compiling: npm run start
+**Run without compiling**: npm run start
 
-Linting: npm run build:lint
+**Linting**: 
 
-Formatting: npm run build:format
+```
+npm run build:lint
+```
 
-Tests: npm run test
+**Formatting**: 
+```
+npm run build:format
+```
 
-Compile and run: npm run start:build
+**Tests**: 
 
-Lint, compile, and run: npm run start:build:lint
+```
+npm run test
+```
 
-Lint, format, compile and run: npm run start:build:lint:format
+**Compile and run**: 
+```
+npm run start:build
+```
 
-Lint, format, test, compile and run: npm run start:build:lint:format:test
+**Lint, compile, and run**: 
+```
+npm run start:build:lint
+```
 
+**Lint, format, compile and run**: 
+```
+npm run start:build:lint:format
+```
+**Lint, format, test, compile and run**: 
+```
+npm run start:build:lint:format:test
+```
+
+Added NYC for coverage testing, and example Hello() function to test my testing.
