@@ -1,4 +1,4 @@
-export function Hello() {
-  console.log("Hello world!");
-  return "Hello world!";
+export function Hello(name: string) {
+  console.log(`Hello ${name}`);
+  return `Hello ${name}`;
 }
