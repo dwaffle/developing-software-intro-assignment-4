@@ -45,3 +45,12 @@ npm run start:build:lint:format:test
 ```
 
 Added NYC for coverage testing, and example Hello() function to test my testing.
+
+Added Yargs for passing in command line paramaters.
+
+## Using Yargs
+
+```
+npm run start -- greet -p Bob
+```
+Expected result: Hello Bob
